@@ -1,0 +1,28 @@
+# Environments & Dependencies
+backend_venv/
+venv/
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+dist/
+build/
+
+# Local databases & logs
+*.db
+*.sqlite3
+*.log
+
+# Environment variables
+.env
+.env.local
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# All environment variants
+.env.*
+!.env.example
